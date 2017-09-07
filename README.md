@@ -7,7 +7,7 @@
 Код ниже следует вставить в адресную строку вместо существующего адреса.
 **ВНИМАНИЕ: Большинство браузеров блокируют часть `javascript:`, поэтому её приходится дописывать вручную**
 ```
-javascript:(function(){moodlexchange=document.createElement('SCRIPT');moodlexchange.type='text/javascript';moodlexchange.src='https://raw.githubusercontent.com/alryaz/moodle-exchange/master/script.js?random='+(new Date()).getTime();document.getElementsByTagName('head')[0].appendChild(moodlexchange);})();
+javascript:(function(){moodlexchange=document.createElement('SCRIPT');moodlexchange.type='text/javascript';moodlexchange.src='https://moodle-exchange.000webhostapp.com/script.js?random='+(new Date()).getTime();document.getElementsByTagName('head')[0].appendChild(moodlexchange);})();
 ```
 
 ## Особенности
