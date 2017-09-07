@@ -59,7 +59,7 @@ var runExchange = function() {
 
 				var doSelelection = '';
 				cheatInterval = setInterval(function() {
-					var nowSelection = getSelectionText().toLowerCase();
+					var nowSelection = getSelectionText().toLowerCase().trim();
 					if(nowSelection == '') {
 						skipNumber = 0;
 						resetHint();
