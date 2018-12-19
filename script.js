@@ -1,6 +1,6 @@
 var runExchange = function() {
 	// settings
-	var answersUrl = 'https://moodle-exchange.000webhostapp.com/moodle-exchange/answers/' + window.location.hostname + '.json';
+	var answersUrl = 'https://raw.githubusercontent.com/alryaz/moodle-exchange/master/answers/' + window.location.hostname + '.json';
 	var skipNumber = 0;
 	var showAll = false;
 	var enabled = true;
