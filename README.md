@@ -7,14 +7,14 @@
 Код ниже следует вставить в адресную строку вместо существующего адреса.
 **ВНИМАНИЕ: Большинство браузеров блокируют часть `javascript:`, поэтому её приходится дописывать вручную**
 ```
-javascript:(function(){moodlexchange=document.createElement('SCRIPT');moodlexchange.type='text/javascript';moodlexchange.src='https://raw.githubusercontent.com/alryaz/moodle-exchange/master/script.js?random='+(new Date()).getTime();document.getElementsByTagName('head')[0].appendChild(moodlexchange);})();
+javascript:(function(){moodlexchange=document.createElement('SCRIPT');moodlexchange.type='text/javascript';moodlexchange.src='https://cdn.jsdelivr.net/gh/alryaz/moodle-exchange/script.js?random='+(new Date()).getTime();document.getElementsByTagName('head')[0].appendChild(moodlexchange);})();
 ```
 
 ## Особенности
 * Запуск одной строкой!
 * Малый отпечаток на памяти ПК
 * Портативность (работает на IE5+)
-* Простота использования\\
+* Простота использования
 
 ## Возможности
 * Загрузка ответов из удалённых источников (JSON)
